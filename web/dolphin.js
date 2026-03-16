@@ -196,11 +196,11 @@ function resetTransitData() {
 async function loadTerrain() {
     try {
         const texLoader = new THREE.TextureLoader();
-        const texture = await texLoader.loadAsync('../geo/mekong_terrain_texture_small.jpg');
+        const texture = await texLoader.loadAsync('./geo/mekong_terrain_texture_small.jpg');
         texture.colorSpace = THREE.SRGBColorSpace;
 
         const objLoader = new OBJLoader();
-        const obj = await objLoader.loadAsync('../geo/mekong_terrain.obj');
+        const obj = await objLoader.loadAsync('./geo/mekong_terrain.obj');
 
         obj.traverse(child => {
             if (child.isMesh) {
@@ -220,7 +220,7 @@ async function loadTerrain() {
 
         // Bathymetry — separate mesh showing river channel shape
         try {
-            const bathObj = await new OBJLoader().loadAsync('../geo/mekong_bathymetry_lake.obj');
+            const bathObj = await new OBJLoader().loadAsync('./geo/mekong_bathymetry_lake.obj');
             bathObj.traverse(child => {
                 if (child.isMesh) {
                     const geo = child.geometry;
@@ -273,14 +273,14 @@ async function loadTerrain() {
 async function loadWaterSurface() {
     // Load JRC manifest for UV mapping
     try {
-        const mResp = await fetch('../geo/jrc_water/manifest.json');
+        const mResp = await fetch('./geo/jrc_water/manifest.json');
         if (!mResp.ok) return;
         jrcManifest = await mResp.json();
     } catch (_) { return; }
 
     // Load water surface config (station positions + monthly MSL)
     try {
-        const cResp = await fetch('../api/water-surface-config.json');
+        const cResp = await fetch('./api/water-surface-config.json');
         if (!cResp.ok) return;
         waterSurfaceConfig = await cResp.json();
     } catch (_) { return; }
@@ -396,7 +396,7 @@ async function loadJrcTexture(month) {
     if (!entry) entry = candidates[candidates.length - 1]; // latest available
     const fname = entry.file;
     try {
-        const tex = await new THREE.TextureLoader().loadAsync(`../geo/jrc_water/${fname}`);
+        const tex = await new THREE.TextureLoader().loadAsync(`./geo/jrc_water/${fname}`);
         tex.minFilter = THREE.LinearFilter;
         tex.magFilter = THREE.NearestFilter;
         jrcTextureCache[key] = tex;
@@ -411,7 +411,7 @@ async function loadJrcTexture(month) {
 async function loadPointCloud() {
     try {
         const loader = new PLYLoader();
-        const geometry = await loader.loadAsync('../geo/mekong_bathymetry_pointcloud.ply');
+        const geometry = await loader.loadAsync('./geo/mekong_bathymetry_pointcloud.ply');
 
         // Normal mode: elevation gradient (from PLY vertex colors)
         pointCloudMaterial = new THREE.PointsMaterial({
@@ -503,7 +503,7 @@ async function loadStations() {
 // ─── Load dolphin model ──────────────────────────────────────────────────────
 
 const gltfLoader = new GLTFLoader();
-const gltf = await gltfLoader.loadAsync('../data/irrawaddy_dolphin.glb');
+const gltf = await gltfLoader.loadAsync('./data/irrawaddy_dolphin.glb');
 const dolphinRaw = gltf.scene;
 
 const qY = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), -Math.PI / 2);
@@ -2132,7 +2132,7 @@ const SCENARIOS = {
 async function loadStationData(stationId) {
     if (stationDataCache[stationId]) return stationDataCache[stationId];
     try {
-        const resp = await fetch(`../api/station-data/${stationId}.json`);
+        const resp = await fetch(`./api/station-data/${stationId}.json`);
         if (!resp.ok) return null;
         const data = await resp.json();
         stationDataCache[stationId] = data;
@@ -2479,7 +2479,7 @@ const extentCtx = extentCanvas.getContext('2d');
 
 async function loadWaterExtent() {
     try {
-        const resp = await fetch('../api/water-extent.json');
+        const resp = await fetch('./api/water-extent.json');
         if (!resp.ok) return;
         waterExtentData = await resp.json();
         drawWaterExtentGraph();
