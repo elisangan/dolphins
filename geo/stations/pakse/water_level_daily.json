@@ -1,0 +1,1835 @@
+{
+  "station_id": "pakse",
+  "station_name": "Pakse",
+  "year": 2020,
+  "unit": "meters above zero gauge",
+  "zero_gauge_msl": 86.49,
+  "description": "Synthetic daily water level. Sinusoidal flood pulse calibrated to published MRC min/max.",
+  "daily": [
+    {
+      "day": 1,
+      "level_m": 8.66,
+      "level_msl": 95.15
+    },
+    {
+      "day": 2,
+      "level_m": 8.87,
+      "level_msl": 95.36
+    },
+    {
+      "day": 3,
+      "level_m": 9.01,
+      "level_msl": 95.5
+    },
+    {
+      "day": 4,
+      "level_m": 9.0,
+      "level_msl": 95.49
+    },
+    {
+      "day": 5,
+      "level_m": 9.19,
+      "level_msl": 95.68
+    },
+    {
+      "day": 6,
+      "level_m": 9.29,
+      "level_msl": 95.78
+    },
+    {
+      "day": 7,
+      "level_m": 9.53,
+      "level_msl": 96.02
+    },
+    {
+      "day": 8,
+      "level_m": 9.55,
+      "level_msl": 96.04
+    },
+    {
+      "day": 9,
+      "level_m": 9.66,
+      "level_msl": 96.15
+    },
+    {
+      "day": 10,
+      "level_m": 9.68,
+      "level_msl": 96.17
+    },
+    {
+      "day": 11,
+      "level_m": 9.88,
+      "level_msl": 96.37
+    },
+    {
+      "day": 12,
+      "level_m": 9.97,
+      "level_msl": 96.46
+    },
+    {
+      "day": 13,
+      "level_m": 10.07,
+      "level_msl": 96.56
+    },
+    {
+      "day": 14,
+      "level_m": 10.13,
+      "level_msl": 96.62
+    },
+    {
+      "day": 15,
+      "level_m": 10.31,
+      "level_msl": 96.8
+    },
+    {
+      "day": 16,
+      "level_m": 10.4,
+      "level_msl": 96.89
+    },
+    {
+      "day": 17,
+      "level_m": 10.55,
+      "level_msl": 97.04
+    },
+    {
+      "day": 18,
+      "level_m": 10.69,
+      "level_msl": 97.18
+    },
+    {
+      "day": 19,
+      "level_m": 10.8,
+      "level_msl": 97.29
+    },
+    {
+      "day": 20,
+      "level_m": 10.9,
+      "level_msl": 97.39
+    },
+    {
+      "day": 21,
+      "level_m": 10.99,
+      "level_msl": 97.48
+    },
+    {
+      "day": 22,
+      "level_m": 11.09,
+      "level_msl": 97.58
+    },
+    {
+      "day": 23,
+      "level_m": 11.21,
+      "level_msl": 97.7
+    },
+    {
+      "day": 24,
+      "level_m": 11.34,
+      "level_msl": 97.83
+    },
+    {
+      "day": 25,
+      "level_m": 11.44,
+      "level_msl": 97.93
+    },
+    {
+      "day": 26,
+      "level_m": 11.39,
+      "level_msl": 97.88
+    },
+    {
+      "day": 27,
+      "level_m": 11.54,
+      "level_msl": 98.03
+    },
+    {
+      "day": 28,
+      "level_m": 11.58,
+      "level_msl": 98.07
+    },
+    {
+      "day": 29,
+      "level_m": 11.63,
+      "level_msl": 98.12
+    },
+    {
+      "day": 30,
+      "level_m": 11.65,
+      "level_msl": 98.14
+    },
+    {
+      "day": 31,
+      "level_m": 11.68,
+      "level_msl": 98.17
+    },
+    {
+      "day": 32,
+      "level_m": 11.75,
+      "level_msl": 98.24
+    },
+    {
+      "day": 33,
+      "level_m": 11.89,
+      "level_msl": 98.38
+    },
+    {
+      "day": 34,
+      "level_m": 11.92,
+      "level_msl": 98.41
+    },
+    {
+      "day": 35,
+      "level_m": 12.1,
+      "level_msl": 98.59
+    },
+    {
+      "day": 36,
+      "level_m": 12.18,
+      "level_msl": 98.67
+    },
+    {
+      "day": 37,
+      "level_m": 12.28,
+      "level_msl": 98.77
+    },
+    {
+      "day": 38,
+      "level_m": 12.39,
+      "level_msl": 98.88
+    },
+    {
+      "day": 39,
+      "level_m": 12.49,
+      "level_msl": 98.98
+    },
+    {
+      "day": 40,
+      "level_m": 12.51,
+      "level_msl": 99.0
+    },
+    {
+      "day": 41,
+      "level_m": 12.59,
+      "level_msl": 99.08
+    },
+    {
+      "day": 42,
+      "level_m": 12.62,
+      "level_msl": 99.11
+    },
+    {
+      "day": 43,
+      "level_m": 12.67,
+      "level_msl": 99.16
+    },
+    {
+      "day": 44,
+      "level_m": 12.78,
+      "level_msl": 99.27
+    },
+    {
+      "day": 45,
+      "level_m": 12.81,
+      "level_msl": 99.3
+    },
+    {
+      "day": 46,
+      "level_m": 12.84,
+      "level_msl": 99.33
+    },
+    {
+      "day": 47,
+      "level_m": 12.94,
+      "level_msl": 99.43
+    },
+    {
+      "day": 48,
+      "level_m": 12.98,
+      "level_msl": 99.47
+    },
+    {
+      "day": 49,
+      "level_m": 12.99,
+      "level_msl": 99.48
+    },
+    {
+      "day": 50,
+      "level_m": 13.01,
+      "level_msl": 99.5
+    },
+    {
+      "day": 51,
+      "level_m": 13.07,
+      "level_msl": 99.56
+    },
+    {
+      "day": 52,
+      "level_m": 13.11,
+      "level_msl": 99.6
+    },
+    {
+      "day": 53,
+      "level_m": 13.13,
+      "level_msl": 99.62
+    },
+    {
+      "day": 54,
+      "level_m": 13.13,
+      "level_msl": 99.62
+    },
+    {
+      "day": 55,
+      "level_m": 13.16,
+      "level_msl": 99.65
+    },
+    {
+      "day": 56,
+      "level_m": 13.21,
+      "level_msl": 99.7
+    },
+    {
+      "day": 57,
+      "level_m": 13.34,
+      "level_msl": 99.83
+    },
+    {
+      "day": 58,
+      "level_m": 13.36,
+      "level_msl": 99.85
+    },
+    {
+      "day": 59,
+      "level_m": 13.41,
+      "level_msl": 99.9
+    },
+    {
+      "day": 60,
+      "level_m": 13.53,
+      "level_msl": 100.02
+    },
+    {
+      "day": 61,
+      "level_m": 13.65,
+      "level_msl": 100.14
+    },
+    {
+      "day": 62,
+      "level_m": 13.7,
+      "level_msl": 100.19
+    },
+    {
+      "day": 63,
+      "level_m": 13.71,
+      "level_msl": 100.2
+    },
+    {
+      "day": 64,
+      "level_m": 13.76,
+      "level_msl": 100.25
+    },
+    {
+      "day": 65,
+      "level_m": 13.74,
+      "level_msl": 100.23
+    },
+    {
+      "day": 66,
+      "level_m": 13.75,
+      "level_msl": 100.24
+    },
+    {
+      "day": 67,
+      "level_m": 13.75,
+      "level_msl": 100.24
+    },
+    {
+      "day": 68,
+      "level_m": 13.8,
+      "level_msl": 100.29
+    },
+    {
+      "day": 69,
+      "level_m": 13.86,
+      "level_msl": 100.35
+    },
+    {
+      "day": 70,
+      "level_m": 13.95,
+      "level_msl": 100.44
+    },
+    {
+      "day": 71,
+      "level_m": 13.93,
+      "level_msl": 100.42
+    },
+    {
+      "day": 72,
+      "level_m": 13.99,
+      "level_msl": 100.48
+    },
+    {
+      "day": 73,
+      "level_m": 14.06,
+      "level_msl": 100.55
+    },
+    {
+      "day": 74,
+      "level_m": 14.06,
+      "level_msl": 100.55
+    },
+    {
+      "day": 75,
+      "level_m": 14.03,
+      "level_msl": 100.52
+    },
+    {
+      "day": 76,
+      "level_m": 14.01,
+      "level_msl": 100.5
+    },
+    {
+      "day": 77,
+      "level_m": 14.0,
+      "level_msl": 100.49
+    },
+    {
+      "day": 78,
+      "level_m": 14.0,
+      "level_msl": 100.49
+    },
+    {
+      "day": 79,
+      "level_m": 13.97,
+      "level_msl": 100.46
+    },
+    {
+      "day": 80,
+      "level_m": 13.96,
+      "level_msl": 100.45
+    },
+    {
+      "day": 81,
+      "level_m": 13.95,
+      "level_msl": 100.44
+    },
+    {
+      "day": 82,
+      "level_m": 13.93,
+      "level_msl": 100.42
+    },
+    {
+      "day": 83,
+      "level_m": 13.93,
+      "level_msl": 100.42
+    },
+    {
+      "day": 84,
+      "level_m": 13.96,
+      "level_msl": 100.45
+    },
+    {
+      "day": 85,
+      "level_m": 13.98,
+      "level_msl": 100.47
+    },
+    {
+      "day": 86,
+      "level_m": 13.97,
+      "level_msl": 100.46
+    },
+    {
+      "day": 87,
+      "level_m": 13.95,
+      "level_msl": 100.44
+    },
+    {
+      "day": 88,
+      "level_m": 13.97,
+      "level_msl": 100.46
+    },
+    {
+      "day": 89,
+      "level_m": 13.96,
+      "level_msl": 100.45
+    },
+    {
+      "day": 90,
+      "level_m": 13.94,
+      "level_msl": 100.43
+    },
+    {
+      "day": 91,
+      "level_m": 13.91,
+      "level_msl": 100.4
+    },
+    {
+      "day": 92,
+      "level_m": 13.86,
+      "level_msl": 100.35
+    },
+    {
+      "day": 93,
+      "level_m": 13.87,
+      "level_msl": 100.36
+    },
+    {
+      "day": 94,
+      "level_m": 13.84,
+      "level_msl": 100.33
+    },
+    {
+      "day": 95,
+      "level_m": 13.79,
+      "level_msl": 100.28
+    },
+    {
+      "day": 96,
+      "level_m": 13.79,
+      "level_msl": 100.28
+    },
+    {
+      "day": 97,
+      "level_m": 13.73,
+      "level_msl": 100.22
+    },
+    {
+      "day": 98,
+      "level_m": 13.7,
+      "level_msl": 100.19
+    },
+    {
+      "day": 99,
+      "level_m": 13.69,
+      "level_msl": 100.18
+    },
+    {
+      "day": 100,
+      "level_m": 13.67,
+      "level_msl": 100.16
+    },
+    {
+      "day": 101,
+      "level_m": 13.67,
+      "level_msl": 100.16
+    },
+    {
+      "day": 102,
+      "level_m": 13.69,
+      "level_msl": 100.18
+    },
+    {
+      "day": 103,
+      "level_m": 13.64,
+      "level_msl": 100.13
+    },
+    {
+      "day": 104,
+      "level_m": 13.63,
+      "level_msl": 100.12
+    },
+    {
+      "day": 105,
+      "level_m": 13.59,
+      "level_msl": 100.08
+    },
+    {
+      "day": 106,
+      "level_m": 13.56,
+      "level_msl": 100.05
+    },
+    {
+      "day": 107,
+      "level_m": 13.5,
+      "level_msl": 99.99
+    },
+    {
+      "day": 108,
+      "level_m": 13.45,
+      "level_msl": 99.94
+    },
+    {
+      "day": 109,
+      "level_m": 13.35,
+      "level_msl": 99.84
+    },
+    {
+      "day": 110,
+      "level_m": 13.28,
+      "level_msl": 99.77
+    },
+    {
+      "day": 111,
+      "level_m": 13.2,
+      "level_msl": 99.69
+    },
+    {
+      "day": 112,
+      "level_m": 13.2,
+      "level_msl": 99.69
+    },
+    {
+      "day": 113,
+      "level_m": 13.09,
+      "level_msl": 99.58
+    },
+    {
+      "day": 114,
+      "level_m": 13.02,
+      "level_msl": 99.51
+    },
+    {
+      "day": 115,
+      "level_m": 12.94,
+      "level_msl": 99.43
+    },
+    {
+      "day": 116,
+      "level_m": 12.93,
+      "level_msl": 99.42
+    },
+    {
+      "day": 117,
+      "level_m": 12.88,
+      "level_msl": 99.37
+    },
+    {
+      "day": 118,
+      "level_m": 12.9,
+      "level_msl": 99.39
+    },
+    {
+      "day": 119,
+      "level_m": 12.76,
+      "level_msl": 99.25
+    },
+    {
+      "day": 120,
+      "level_m": 12.75,
+      "level_msl": 99.24
+    },
+    {
+      "day": 121,
+      "level_m": 12.67,
+      "level_msl": 99.16
+    },
+    {
+      "day": 122,
+      "level_m": 12.7,
+      "level_msl": 99.19
+    },
+    {
+      "day": 123,
+      "level_m": 12.56,
+      "level_msl": 99.05
+    },
+    {
+      "day": 124,
+      "level_m": 12.51,
+      "level_msl": 99.0
+    },
+    {
+      "day": 125,
+      "level_m": 12.43,
+      "level_msl": 98.92
+    },
+    {
+      "day": 126,
+      "level_m": 12.39,
+      "level_msl": 98.88
+    },
+    {
+      "day": 127,
+      "level_m": 12.3,
+      "level_msl": 98.79
+    },
+    {
+      "day": 128,
+      "level_m": 12.25,
+      "level_msl": 98.74
+    },
+    {
+      "day": 129,
+      "level_m": 12.1,
+      "level_msl": 98.59
+    },
+    {
+      "day": 130,
+      "level_m": 12.06,
+      "level_msl": 98.55
+    },
+    {
+      "day": 131,
+      "level_m": 12.0,
+      "level_msl": 98.49
+    },
+    {
+      "day": 132,
+      "level_m": 11.98,
+      "level_msl": 98.47
+    },
+    {
+      "day": 133,
+      "level_m": 11.87,
+      "level_msl": 98.36
+    },
+    {
+      "day": 134,
+      "level_m": 11.74,
+      "level_msl": 98.23
+    },
+    {
+      "day": 135,
+      "level_m": 11.66,
+      "level_msl": 98.15
+    },
+    {
+      "day": 136,
+      "level_m": 11.67,
+      "level_msl": 98.16
+    },
+    {
+      "day": 137,
+      "level_m": 11.56,
+      "level_msl": 98.05
+    },
+    {
+      "day": 138,
+      "level_m": 11.5,
+      "level_msl": 97.99
+    },
+    {
+      "day": 139,
+      "level_m": 11.39,
+      "level_msl": 97.88
+    },
+    {
+      "day": 140,
+      "level_m": 11.3,
+      "level_msl": 97.79
+    },
+    {
+      "day": 141,
+      "level_m": 11.29,
+      "level_msl": 97.78
+    },
+    {
+      "day": 142,
+      "level_m": 11.27,
+      "level_msl": 97.76
+    },
+    {
+      "day": 143,
+      "level_m": 11.06,
+      "level_msl": 97.55
+    },
+    {
+      "day": 144,
+      "level_m": 10.99,
+      "level_msl": 97.48
+    },
+    {
+      "day": 145,
+      "level_m": 10.8,
+      "level_msl": 97.29
+    },
+    {
+      "day": 146,
+      "level_m": 10.6,
+      "level_msl": 97.09
+    },
+    {
+      "day": 147,
+      "level_m": 10.5,
+      "level_msl": 96.99
+    },
+    {
+      "day": 148,
+      "level_m": 10.33,
+      "level_msl": 96.82
+    },
+    {
+      "day": 149,
+      "level_m": 10.16,
+      "level_msl": 96.65
+    },
+    {
+      "day": 150,
+      "level_m": 10.05,
+      "level_msl": 96.54
+    },
+    {
+      "day": 151,
+      "level_m": 9.97,
+      "level_msl": 96.46
+    },
+    {
+      "day": 152,
+      "level_m": 9.83,
+      "level_msl": 96.32
+    },
+    {
+      "day": 153,
+      "level_m": 9.78,
+      "level_msl": 96.27
+    },
+    {
+      "day": 154,
+      "level_m": 9.74,
+      "level_msl": 96.23
+    },
+    {
+      "day": 155,
+      "level_m": 9.61,
+      "level_msl": 96.1
+    },
+    {
+      "day": 156,
+      "level_m": 9.52,
+      "level_msl": 96.01
+    },
+    {
+      "day": 157,
+      "level_m": 9.5,
+      "level_msl": 95.99
+    },
+    {
+      "day": 158,
+      "level_m": 9.34,
+      "level_msl": 95.83
+    },
+    {
+      "day": 159,
+      "level_m": 9.37,
+      "level_msl": 95.86
+    },
+    {
+      "day": 160,
+      "level_m": 9.27,
+      "level_msl": 95.76
+    },
+    {
+      "day": 161,
+      "level_m": 9.1,
+      "level_msl": 95.59
+    },
+    {
+      "day": 162,
+      "level_m": 9.08,
+      "level_msl": 95.57
+    },
+    {
+      "day": 163,
+      "level_m": 8.98,
+      "level_msl": 95.47
+    },
+    {
+      "day": 164,
+      "level_m": 8.83,
+      "level_msl": 95.32
+    },
+    {
+      "day": 165,
+      "level_m": 8.8,
+      "level_msl": 95.29
+    },
+    {
+      "day": 166,
+      "level_m": 8.58,
+      "level_msl": 95.07
+    },
+    {
+      "day": 167,
+      "level_m": 8.46,
+      "level_msl": 94.95
+    },
+    {
+      "day": 168,
+      "level_m": 8.32,
+      "level_msl": 94.81
+    },
+    {
+      "day": 169,
+      "level_m": 8.21,
+      "level_msl": 94.7
+    },
+    {
+      "day": 170,
+      "level_m": 8.04,
+      "level_msl": 94.53
+    },
+    {
+      "day": 171,
+      "level_m": 7.9,
+      "level_msl": 94.39
+    },
+    {
+      "day": 172,
+      "level_m": 7.82,
+      "level_msl": 94.31
+    },
+    {
+      "day": 173,
+      "level_m": 7.8,
+      "level_msl": 94.29
+    },
+    {
+      "day": 174,
+      "level_m": 7.71,
+      "level_msl": 94.2
+    },
+    {
+      "day": 175,
+      "level_m": 7.62,
+      "level_msl": 94.11
+    },
+    {
+      "day": 176,
+      "level_m": 7.5,
+      "level_msl": 93.99
+    },
+    {
+      "day": 177,
+      "level_m": 7.49,
+      "level_msl": 93.98
+    },
+    {
+      "day": 178,
+      "level_m": 7.42,
+      "level_msl": 93.91
+    },
+    {
+      "day": 179,
+      "level_m": 7.36,
+      "level_msl": 93.85
+    },
+    {
+      "day": 180,
+      "level_m": 7.22,
+      "level_msl": 93.71
+    },
+    {
+      "day": 181,
+      "level_m": 7.1,
+      "level_msl": 93.59
+    },
+    {
+      "day": 182,
+      "level_m": 7.03,
+      "level_msl": 93.52
+    },
+    {
+      "day": 183,
+      "level_m": 6.94,
+      "level_msl": 93.43
+    },
+    {
+      "day": 184,
+      "level_m": 6.77,
+      "level_msl": 93.26
+    },
+    {
+      "day": 185,
+      "level_m": 6.69,
+      "level_msl": 93.18
+    },
+    {
+      "day": 186,
+      "level_m": 6.53,
+      "level_msl": 93.02
+    },
+    {
+      "day": 187,
+      "level_m": 6.37,
+      "level_msl": 92.86
+    },
+    {
+      "day": 188,
+      "level_m": 6.2,
+      "level_msl": 92.69
+    },
+    {
+      "day": 189,
+      "level_m": 6.03,
+      "level_msl": 92.52
+    },
+    {
+      "day": 190,
+      "level_m": 5.94,
+      "level_msl": 92.43
+    },
+    {
+      "day": 191,
+      "level_m": 5.8,
+      "level_msl": 92.29
+    },
+    {
+      "day": 192,
+      "level_m": 5.57,
+      "level_msl": 92.06
+    },
+    {
+      "day": 193,
+      "level_m": 5.45,
+      "level_msl": 91.94
+    },
+    {
+      "day": 194,
+      "level_m": 5.48,
+      "level_msl": 91.97
+    },
+    {
+      "day": 195,
+      "level_m": 5.44,
+      "level_msl": 91.93
+    },
+    {
+      "day": 196,
+      "level_m": 5.45,
+      "level_msl": 91.94
+    },
+    {
+      "day": 197,
+      "level_m": 5.34,
+      "level_msl": 91.83
+    },
+    {
+      "day": 198,
+      "level_m": 5.28,
+      "level_msl": 91.77
+    },
+    {
+      "day": 199,
+      "level_m": 5.31,
+      "level_msl": 91.8
+    },
+    {
+      "day": 200,
+      "level_m": 5.19,
+      "level_msl": 91.68
+    },
+    {
+      "day": 201,
+      "level_m": 5.0,
+      "level_msl": 91.49
+    },
+    {
+      "day": 202,
+      "level_m": 4.91,
+      "level_msl": 91.4
+    },
+    {
+      "day": 203,
+      "level_m": 4.76,
+      "level_msl": 91.25
+    },
+    {
+      "day": 204,
+      "level_m": 4.7,
+      "level_msl": 91.19
+    },
+    {
+      "day": 205,
+      "level_m": 4.6,
+      "level_msl": 91.09
+    },
+    {
+      "day": 206,
+      "level_m": 4.44,
+      "level_msl": 90.93
+    },
+    {
+      "day": 207,
+      "level_m": 4.39,
+      "level_msl": 90.88
+    },
+    {
+      "day": 208,
+      "level_m": 4.25,
+      "level_msl": 90.74
+    },
+    {
+      "day": 209,
+      "level_m": 4.15,
+      "level_msl": 90.64
+    },
+    {
+      "day": 210,
+      "level_m": 4.09,
+      "level_msl": 90.58
+    },
+    {
+      "day": 211,
+      "level_m": 4.0,
+      "level_msl": 90.49
+    },
+    {
+      "day": 212,
+      "level_m": 3.94,
+      "level_msl": 90.43
+    },
+    {
+      "day": 213,
+      "level_m": 3.89,
+      "level_msl": 90.38
+    },
+    {
+      "day": 214,
+      "level_m": 3.81,
+      "level_msl": 90.3
+    },
+    {
+      "day": 215,
+      "level_m": 3.81,
+      "level_msl": 90.3
+    },
+    {
+      "day": 216,
+      "level_m": 3.75,
+      "level_msl": 90.24
+    },
+    {
+      "day": 217,
+      "level_m": 3.67,
+      "level_msl": 90.16
+    },
+    {
+      "day": 218,
+      "level_m": 3.51,
+      "level_msl": 90.0
+    },
+    {
+      "day": 219,
+      "level_m": 3.38,
+      "level_msl": 89.87
+    },
+    {
+      "day": 220,
+      "level_m": 3.29,
+      "level_msl": 89.78
+    },
+    {
+      "day": 221,
+      "level_m": 3.17,
+      "level_msl": 89.66
+    },
+    {
+      "day": 222,
+      "level_m": 3.04,
+      "level_msl": 89.53
+    },
+    {
+      "day": 223,
+      "level_m": 2.95,
+      "level_msl": 89.44
+    },
+    {
+      "day": 224,
+      "level_m": 2.89,
+      "level_msl": 89.38
+    },
+    {
+      "day": 225,
+      "level_m": 2.87,
+      "level_msl": 89.36
+    },
+    {
+      "day": 226,
+      "level_m": 2.85,
+      "level_msl": 89.34
+    },
+    {
+      "day": 227,
+      "level_m": 2.8,
+      "level_msl": 89.29
+    },
+    {
+      "day": 228,
+      "level_m": 2.69,
+      "level_msl": 89.18
+    },
+    {
+      "day": 229,
+      "level_m": 2.61,
+      "level_msl": 89.1
+    },
+    {
+      "day": 230,
+      "level_m": 2.54,
+      "level_msl": 89.03
+    },
+    {
+      "day": 231,
+      "level_m": 2.43,
+      "level_msl": 88.92
+    },
+    {
+      "day": 232,
+      "level_m": 2.39,
+      "level_msl": 88.88
+    },
+    {
+      "day": 233,
+      "level_m": 2.36,
+      "level_msl": 88.85
+    },
+    {
+      "day": 234,
+      "level_m": 2.34,
+      "level_msl": 88.83
+    },
+    {
+      "day": 235,
+      "level_m": 2.34,
+      "level_msl": 88.83
+    },
+    {
+      "day": 236,
+      "level_m": 2.35,
+      "level_msl": 88.84
+    },
+    {
+      "day": 237,
+      "level_m": 2.31,
+      "level_msl": 88.8
+    },
+    {
+      "day": 238,
+      "level_m": 2.29,
+      "level_msl": 88.78
+    },
+    {
+      "day": 239,
+      "level_m": 2.21,
+      "level_msl": 88.7
+    },
+    {
+      "day": 240,
+      "level_m": 2.11,
+      "level_msl": 88.6
+    },
+    {
+      "day": 241,
+      "level_m": 2.02,
+      "level_msl": 88.51
+    },
+    {
+      "day": 242,
+      "level_m": 1.99,
+      "level_msl": 88.48
+    },
+    {
+      "day": 243,
+      "level_m": 1.91,
+      "level_msl": 88.4
+    },
+    {
+      "day": 244,
+      "level_m": 1.87,
+      "level_msl": 88.36
+    },
+    {
+      "day": 245,
+      "level_m": 1.85,
+      "level_msl": 88.34
+    },
+    {
+      "day": 246,
+      "level_m": 1.86,
+      "level_msl": 88.35
+    },
+    {
+      "day": 247,
+      "level_m": 1.85,
+      "level_msl": 88.34
+    },
+    {
+      "day": 248,
+      "level_m": 1.8,
+      "level_msl": 88.29
+    },
+    {
+      "day": 249,
+      "level_m": 1.71,
+      "level_msl": 88.2
+    },
+    {
+      "day": 250,
+      "level_m": 1.7,
+      "level_msl": 88.19
+    },
+    {
+      "day": 251,
+      "level_m": 1.65,
+      "level_msl": 88.14
+    },
+    {
+      "day": 252,
+      "level_m": 1.61,
+      "level_msl": 88.1
+    },
+    {
+      "day": 253,
+      "level_m": 1.54,
+      "level_msl": 88.03
+    },
+    {
+      "day": 254,
+      "level_m": 1.46,
+      "level_msl": 87.95
+    },
+    {
+      "day": 255,
+      "level_m": 1.48,
+      "level_msl": 87.97
+    },
+    {
+      "day": 256,
+      "level_m": 1.53,
+      "level_msl": 88.02
+    },
+    {
+      "day": 257,
+      "level_m": 1.49,
+      "level_msl": 87.98
+    },
+    {
+      "day": 258,
+      "level_m": 1.46,
+      "level_msl": 87.95
+    },
+    {
+      "day": 259,
+      "level_m": 1.44,
+      "level_msl": 87.93
+    },
+    {
+      "day": 260,
+      "level_m": 1.46,
+      "level_msl": 87.95
+    },
+    {
+      "day": 261,
+      "level_m": 1.46,
+      "level_msl": 87.95
+    },
+    {
+      "day": 262,
+      "level_m": 1.45,
+      "level_msl": 87.94
+    },
+    {
+      "day": 263,
+      "level_m": 1.43,
+      "level_msl": 87.92
+    },
+    {
+      "day": 264,
+      "level_m": 1.45,
+      "level_msl": 87.94
+    },
+    {
+      "day": 265,
+      "level_m": 1.49,
+      "level_msl": 87.98
+    },
+    {
+      "day": 266,
+      "level_m": 1.48,
+      "level_msl": 87.97
+    },
+    {
+      "day": 267,
+      "level_m": 1.5,
+      "level_msl": 87.99
+    },
+    {
+      "day": 268,
+      "level_m": 1.52,
+      "level_msl": 88.01
+    },
+    {
+      "day": 269,
+      "level_m": 1.53,
+      "level_msl": 88.02
+    },
+    {
+      "day": 270,
+      "level_m": 1.52,
+      "level_msl": 88.01
+    },
+    {
+      "day": 271,
+      "level_m": 1.51,
+      "level_msl": 88.0
+    },
+    {
+      "day": 272,
+      "level_m": 1.51,
+      "level_msl": 88.0
+    },
+    {
+      "day": 273,
+      "level_m": 1.53,
+      "level_msl": 88.02
+    },
+    {
+      "day": 274,
+      "level_m": 1.56,
+      "level_msl": 88.05
+    },
+    {
+      "day": 275,
+      "level_m": 1.55,
+      "level_msl": 88.04
+    },
+    {
+      "day": 276,
+      "level_m": 1.54,
+      "level_msl": 88.03
+    },
+    {
+      "day": 277,
+      "level_m": 1.61,
+      "level_msl": 88.1
+    },
+    {
+      "day": 278,
+      "level_m": 1.64,
+      "level_msl": 88.13
+    },
+    {
+      "day": 279,
+      "level_m": 1.66,
+      "level_msl": 88.15
+    },
+    {
+      "day": 280,
+      "level_m": 1.72,
+      "level_msl": 88.21
+    },
+    {
+      "day": 281,
+      "level_m": 1.7,
+      "level_msl": 88.19
+    },
+    {
+      "day": 282,
+      "level_m": 1.8,
+      "level_msl": 88.29
+    },
+    {
+      "day": 283,
+      "level_m": 1.88,
+      "level_msl": 88.37
+    },
+    {
+      "day": 284,
+      "level_m": 1.87,
+      "level_msl": 88.36
+    },
+    {
+      "day": 285,
+      "level_m": 1.96,
+      "level_msl": 88.45
+    },
+    {
+      "day": 286,
+      "level_m": 2.0,
+      "level_msl": 88.49
+    },
+    {
+      "day": 287,
+      "level_m": 2.04,
+      "level_msl": 88.53
+    },
+    {
+      "day": 288,
+      "level_m": 2.1,
+      "level_msl": 88.59
+    },
+    {
+      "day": 289,
+      "level_m": 2.13,
+      "level_msl": 88.62
+    },
+    {
+      "day": 290,
+      "level_m": 2.2,
+      "level_msl": 88.69
+    },
+    {
+      "day": 291,
+      "level_m": 2.26,
+      "level_msl": 88.75
+    },
+    {
+      "day": 292,
+      "level_m": 2.23,
+      "level_msl": 88.72
+    },
+    {
+      "day": 293,
+      "level_m": 2.31,
+      "level_msl": 88.8
+    },
+    {
+      "day": 294,
+      "level_m": 2.32,
+      "level_msl": 88.81
+    },
+    {
+      "day": 295,
+      "level_m": 2.43,
+      "level_msl": 88.92
+    },
+    {
+      "day": 296,
+      "level_m": 2.45,
+      "level_msl": 88.94
+    },
+    {
+      "day": 297,
+      "level_m": 2.45,
+      "level_msl": 88.94
+    },
+    {
+      "day": 298,
+      "level_m": 2.51,
+      "level_msl": 89.0
+    },
+    {
+      "day": 299,
+      "level_m": 2.55,
+      "level_msl": 89.04
+    },
+    {
+      "day": 300,
+      "level_m": 2.57,
+      "level_msl": 89.06
+    },
+    {
+      "day": 301,
+      "level_m": 2.69,
+      "level_msl": 89.18
+    },
+    {
+      "day": 302,
+      "level_m": 2.67,
+      "level_msl": 89.16
+    },
+    {
+      "day": 303,
+      "level_m": 2.69,
+      "level_msl": 89.18
+    },
+    {
+      "day": 304,
+      "level_m": 2.79,
+      "level_msl": 89.28
+    },
+    {
+      "day": 305,
+      "level_m": 2.89,
+      "level_msl": 89.38
+    },
+    {
+      "day": 306,
+      "level_m": 3.03,
+      "level_msl": 89.52
+    },
+    {
+      "day": 307,
+      "level_m": 3.17,
+      "level_msl": 89.66
+    },
+    {
+      "day": 308,
+      "level_m": 3.17,
+      "level_msl": 89.66
+    },
+    {
+      "day": 309,
+      "level_m": 3.21,
+      "level_msl": 89.7
+    },
+    {
+      "day": 310,
+      "level_m": 3.38,
+      "level_msl": 89.87
+    },
+    {
+      "day": 311,
+      "level_m": 3.42,
+      "level_msl": 89.91
+    },
+    {
+      "day": 312,
+      "level_m": 3.45,
+      "level_msl": 89.94
+    },
+    {
+      "day": 313,
+      "level_m": 3.56,
+      "level_msl": 90.05
+    },
+    {
+      "day": 314,
+      "level_m": 3.62,
+      "level_msl": 90.11
+    },
+    {
+      "day": 315,
+      "level_m": 3.75,
+      "level_msl": 90.24
+    },
+    {
+      "day": 316,
+      "level_m": 3.96,
+      "level_msl": 90.45
+    },
+    {
+      "day": 317,
+      "level_m": 3.97,
+      "level_msl": 90.46
+    },
+    {
+      "day": 318,
+      "level_m": 4.1,
+      "level_msl": 90.59
+    },
+    {
+      "day": 319,
+      "level_m": 4.2,
+      "level_msl": 90.69
+    },
+    {
+      "day": 320,
+      "level_m": 4.24,
+      "level_msl": 90.73
+    },
+    {
+      "day": 321,
+      "level_m": 4.37,
+      "level_msl": 90.86
+    },
+    {
+      "day": 322,
+      "level_m": 4.46,
+      "level_msl": 90.95
+    },
+    {
+      "day": 323,
+      "level_m": 4.49,
+      "level_msl": 90.98
+    },
+    {
+      "day": 324,
+      "level_m": 4.65,
+      "level_msl": 91.14
+    },
+    {
+      "day": 325,
+      "level_m": 4.69,
+      "level_msl": 91.18
+    },
+    {
+      "day": 326,
+      "level_m": 4.75,
+      "level_msl": 91.24
+    },
+    {
+      "day": 327,
+      "level_m": 4.79,
+      "level_msl": 91.28
+    },
+    {
+      "day": 328,
+      "level_m": 4.74,
+      "level_msl": 91.23
+    },
+    {
+      "day": 329,
+      "level_m": 4.9,
+      "level_msl": 91.39
+    },
+    {
+      "day": 330,
+      "level_m": 4.93,
+      "level_msl": 91.42
+    },
+    {
+      "day": 331,
+      "level_m": 4.97,
+      "level_msl": 91.46
+    },
+    {
+      "day": 332,
+      "level_m": 5.07,
+      "level_msl": 91.56
+    },
+    {
+      "day": 333,
+      "level_m": 5.22,
+      "level_msl": 91.71
+    },
+    {
+      "day": 334,
+      "level_m": 5.4,
+      "level_msl": 91.89
+    },
+    {
+      "day": 335,
+      "level_m": 5.62,
+      "level_msl": 92.11
+    },
+    {
+      "day": 336,
+      "level_m": 5.61,
+      "level_msl": 92.1
+    },
+    {
+      "day": 337,
+      "level_m": 5.75,
+      "level_msl": 92.24
+    },
+    {
+      "day": 338,
+      "level_m": 5.87,
+      "level_msl": 92.36
+    },
+    {
+      "day": 339,
+      "level_m": 5.98,
+      "level_msl": 92.47
+    },
+    {
+      "day": 340,
+      "level_m": 6.14,
+      "level_msl": 92.63
+    },
+    {
+      "day": 341,
+      "level_m": 6.23,
+      "level_msl": 92.72
+    },
+    {
+      "day": 342,
+      "level_m": 6.33,
+      "level_msl": 92.82
+    },
+    {
+      "day": 343,
+      "level_m": 6.48,
+      "level_msl": 92.97
+    },
+    {
+      "day": 344,
+      "level_m": 6.65,
+      "level_msl": 93.14
+    },
+    {
+      "day": 345,
+      "level_m": 6.75,
+      "level_msl": 93.24
+    },
+    {
+      "day": 346,
+      "level_m": 6.81,
+      "level_msl": 93.3
+    },
+    {
+      "day": 347,
+      "level_m": 6.86,
+      "level_msl": 93.35
+    },
+    {
+      "day": 348,
+      "level_m": 6.92,
+      "level_msl": 93.41
+    },
+    {
+      "day": 349,
+      "level_m": 6.97,
+      "level_msl": 93.46
+    },
+    {
+      "day": 350,
+      "level_m": 7.07,
+      "level_msl": 93.56
+    },
+    {
+      "day": 351,
+      "level_m": 7.18,
+      "level_msl": 93.67
+    },
+    {
+      "day": 352,
+      "level_m": 7.28,
+      "level_msl": 93.77
+    },
+    {
+      "day": 353,
+      "level_m": 7.46,
+      "level_msl": 93.95
+    },
+    {
+      "day": 354,
+      "level_m": 7.63,
+      "level_msl": 94.12
+    },
+    {
+      "day": 355,
+      "level_m": 7.77,
+      "level_msl": 94.26
+    },
+    {
+      "day": 356,
+      "level_m": 8.02,
+      "level_msl": 94.51
+    },
+    {
+      "day": 357,
+      "level_m": 8.13,
+      "level_msl": 94.62
+    },
+    {
+      "day": 358,
+      "level_m": 8.1,
+      "level_msl": 94.59
+    },
+    {
+      "day": 359,
+      "level_m": 8.24,
+      "level_msl": 94.73
+    },
+    {
+      "day": 360,
+      "level_m": 8.35,
+      "level_msl": 94.84
+    },
+    {
+      "day": 361,
+      "level_m": 8.44,
+      "level_msl": 94.93
+    },
+    {
+      "day": 362,
+      "level_m": 8.57,
+      "level_msl": 95.06
+    },
+    {
+      "day": 363,
+      "level_m": 8.59,
+      "level_msl": 95.08
+    },
+    {
+      "day": 364,
+      "level_m": 8.73,
+      "level_msl": 95.22
+    },
+    {
+      "day": 365,
+      "level_m": 8.93,
+      "level_msl": 95.42
+    }
+  ]
+}

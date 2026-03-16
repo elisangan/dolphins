@@ -1,0 +1,176 @@
+{
+  "station_id": "kratie",
+  "station_name": "Kratie",
+  "year": 2020,
+  "description": "Synthetic monthly fisheries. Downstream migration Oct-Dec (dai season), upstream Mar-May. Species counts from MRC FADM summaries.",
+  "monthly": [
+    {
+      "month": 1,
+      "n_species": 20,
+      "total_catch_kg_day": 157.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": true,
+        "Cirrhinus_microlepis": true,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    },
+    {
+      "month": 2,
+      "n_species": 15,
+      "total_catch_kg_day": 194.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": true,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    },
+    {
+      "month": 3,
+      "n_species": 34,
+      "total_catch_kg_day": 492.0,
+      "migration_type": "upstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    },
+    {
+      "month": 4,
+      "n_species": 27,
+      "total_catch_kg_day": 586.0,
+      "migration_type": "upstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 5,
+      "n_species": 40,
+      "total_catch_kg_day": 434.0,
+      "migration_type": "upstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 6,
+      "n_species": 22,
+      "total_catch_kg_day": 248.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 7,
+      "n_species": 20,
+      "total_catch_kg_day": 153.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 8,
+      "n_species": 24,
+      "total_catch_kg_day": 219.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": false,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 9,
+      "n_species": 19,
+      "total_catch_kg_day": 239.0,
+      "migration_type": "resident",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": false,
+        "Henicorhynchus_siamensis": true,
+        "Cirrhinus_microlepis": false,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": false
+    },
+    {
+      "month": 10,
+      "n_species": 53,
+      "total_catch_kg_day": 750.0,
+      "migration_type": "downstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": true,
+        "Cirrhinus_microlepis": true,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    },
+    {
+      "month": 11,
+      "n_species": 48,
+      "total_catch_kg_day": 994.0,
+      "migration_type": "downstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": true,
+        "Cirrhinus_microlepis": true,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    },
+    {
+      "month": 12,
+      "n_species": 39,
+      "total_catch_kg_day": 745.0,
+      "migration_type": "downstream",
+      "key_species": {
+        "Pangasianodon_hypophthalmus": true,
+        "Henicorhynchus_siamensis": true,
+        "Cirrhinus_microlepis": true,
+        "Orcaella_brevirostris": true,
+        "Boesemania_microlepis": true
+      },
+      "dai_season": true
+    }
+  ]
+}

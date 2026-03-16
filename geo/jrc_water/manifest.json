@@ -1,0 +1,1346 @@
+{
+  "site_id": "mekong",
+  "total_months": 264,
+  "date_range": {
+    "start": "2000-01",
+    "end": "2021-12"
+  },
+  "uv_mapping": {
+    "offset": {
+      "u": 0.21417,
+      "v": 0.437821
+    },
+    "scale": {
+      "u": 0.600998,
+      "v": 0.324695
+    }
+  },
+  "jrc_bounds_wgs84": {
+    "west": 103.49939545983068,
+    "east": 106.30034251571534,
+    "south": 11.39962095547673,
+    "north": 13.550187745658864
+  },
+  "months": [
+    {
+      "year": 2000,
+      "month": 1,
+      "file": "mekong_water_2000_01.png"
+    },
+    {
+      "year": 2000,
+      "month": 2,
+      "file": "mekong_water_2000_02.png"
+    },
+    {
+      "year": 2000,
+      "month": 3,
+      "file": "mekong_water_2000_03.png"
+    },
+    {
+      "year": 2000,
+      "month": 4,
+      "file": "mekong_water_2000_04.png"
+    },
+    {
+      "year": 2000,
+      "month": 5,
+      "file": "mekong_water_2000_05.png"
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "file": "mekong_water_2000_06.png"
+    },
+    {
+      "year": 2000,
+      "month": 7,
+      "file": "mekong_water_2000_07.png"
+    },
+    {
+      "year": 2000,
+      "month": 8,
+      "file": "mekong_water_2000_08.png"
+    },
+    {
+      "year": 2000,
+      "month": 9,
+      "file": "mekong_water_2000_09.png"
+    },
+    {
+      "year": 2000,
+      "month": 10,
+      "file": "mekong_water_2000_10.png"
+    },
+    {
+      "year": 2000,
+      "month": 11,
+      "file": "mekong_water_2000_11.png"
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "file": "mekong_water_2000_12.png"
+    },
+    {
+      "year": 2001,
+      "month": 1,
+      "file": "mekong_water_2001_01.png"
+    },
+    {
+      "year": 2001,
+      "month": 2,
+      "file": "mekong_water_2001_02.png"
+    },
+    {
+      "year": 2001,
+      "month": 3,
+      "file": "mekong_water_2001_03.png"
+    },
+    {
+      "year": 2001,
+      "month": 4,
+      "file": "mekong_water_2001_04.png"
+    },
+    {
+      "year": 2001,
+      "month": 5,
+      "file": "mekong_water_2001_05.png"
+    },
+    {
+      "year": 2001,
+      "month": 6,
+      "file": "mekong_water_2001_06.png"
+    },
+    {
+      "year": 2001,
+      "month": 7,
+      "file": "mekong_water_2001_07.png"
+    },
+    {
+      "year": 2001,
+      "month": 8,
+      "file": "mekong_water_2001_08.png"
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "file": "mekong_water_2001_09.png"
+    },
+    {
+      "year": 2001,
+      "month": 10,
+      "file": "mekong_water_2001_10.png"
+    },
+    {
+      "year": 2001,
+      "month": 11,
+      "file": "mekong_water_2001_11.png"
+    },
+    {
+      "year": 2001,
+      "month": 12,
+      "file": "mekong_water_2001_12.png"
+    },
+    {
+      "year": 2002,
+      "month": 1,
+      "file": "mekong_water_2002_01.png"
+    },
+    {
+      "year": 2002,
+      "month": 2,
+      "file": "mekong_water_2002_02.png"
+    },
+    {
+      "year": 2002,
+      "month": 3,
+      "file": "mekong_water_2002_03.png"
+    },
+    {
+      "year": 2002,
+      "month": 4,
+      "file": "mekong_water_2002_04.png"
+    },
+    {
+      "year": 2002,
+      "month": 5,
+      "file": "mekong_water_2002_05.png"
+    },
+    {
+      "year": 2002,
+      "month": 6,
+      "file": "mekong_water_2002_06.png"
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "file": "mekong_water_2002_07.png"
+    },
+    {
+      "year": 2002,
+      "month": 8,
+      "file": "mekong_water_2002_08.png"
+    },
+    {
+      "year": 2002,
+      "month": 9,
+      "file": "mekong_water_2002_09.png"
+    },
+    {
+      "year": 2002,
+      "month": 10,
+      "file": "mekong_water_2002_10.png"
+    },
+    {
+      "year": 2002,
+      "month": 11,
+      "file": "mekong_water_2002_11.png"
+    },
+    {
+      "year": 2002,
+      "month": 12,
+      "file": "mekong_water_2002_12.png"
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "file": "mekong_water_2003_01.png"
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "file": "mekong_water_2003_02.png"
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "file": "mekong_water_2003_03.png"
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "file": "mekong_water_2003_04.png"
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "file": "mekong_water_2003_05.png"
+    },
+    {
+      "year": 2003,
+      "month": 6,
+      "file": "mekong_water_2003_06.png"
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "file": "mekong_water_2003_07.png"
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "file": "mekong_water_2003_08.png"
+    },
+    {
+      "year": 2003,
+      "month": 9,
+      "file": "mekong_water_2003_09.png"
+    },
+    {
+      "year": 2003,
+      "month": 10,
+      "file": "mekong_water_2003_10.png"
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "file": "mekong_water_2003_11.png"
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "file": "mekong_water_2003_12.png"
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "file": "mekong_water_2004_01.png"
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "file": "mekong_water_2004_02.png"
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "file": "mekong_water_2004_03.png"
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "file": "mekong_water_2004_04.png"
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "file": "mekong_water_2004_05.png"
+    },
+    {
+      "year": 2004,
+      "month": 6,
+      "file": "mekong_water_2004_06.png"
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "file": "mekong_water_2004_07.png"
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "file": "mekong_water_2004_08.png"
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "file": "mekong_water_2004_09.png"
+    },
+    {
+      "year": 2004,
+      "month": 10,
+      "file": "mekong_water_2004_10.png"
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "file": "mekong_water_2004_11.png"
+    },
+    {
+      "year": 2004,
+      "month": 12,
+      "file": "mekong_water_2004_12.png"
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "file": "mekong_water_2005_01.png"
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "file": "mekong_water_2005_02.png"
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "file": "mekong_water_2005_03.png"
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "file": "mekong_water_2005_04.png"
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "file": "mekong_water_2005_05.png"
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "file": "mekong_water_2005_06.png"
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "file": "mekong_water_2005_07.png"
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "file": "mekong_water_2005_08.png"
+    },
+    {
+      "year": 2005,
+      "month": 9,
+      "file": "mekong_water_2005_09.png"
+    },
+    {
+      "year": 2005,
+      "month": 10,
+      "file": "mekong_water_2005_10.png"
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "file": "mekong_water_2005_11.png"
+    },
+    {
+      "year": 2005,
+      "month": 12,
+      "file": "mekong_water_2005_12.png"
+    },
+    {
+      "year": 2006,
+      "month": 1,
+      "file": "mekong_water_2006_01.png"
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "file": "mekong_water_2006_02.png"
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "file": "mekong_water_2006_03.png"
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "file": "mekong_water_2006_04.png"
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "file": "mekong_water_2006_05.png"
+    },
+    {
+      "year": 2006,
+      "month": 6,
+      "file": "mekong_water_2006_06.png"
+    },
+    {
+      "year": 2006,
+      "month": 7,
+      "file": "mekong_water_2006_07.png"
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "file": "mekong_water_2006_08.png"
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "file": "mekong_water_2006_09.png"
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "file": "mekong_water_2006_10.png"
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "file": "mekong_water_2006_11.png"
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "file": "mekong_water_2006_12.png"
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "file": "mekong_water_2007_01.png"
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "file": "mekong_water_2007_02.png"
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "file": "mekong_water_2007_03.png"
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "file": "mekong_water_2007_04.png"
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "file": "mekong_water_2007_05.png"
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "file": "mekong_water_2007_06.png"
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "file": "mekong_water_2007_07.png"
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "file": "mekong_water_2007_08.png"
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "file": "mekong_water_2007_09.png"
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "file": "mekong_water_2007_10.png"
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "file": "mekong_water_2007_11.png"
+    },
+    {
+      "year": 2007,
+      "month": 12,
+      "file": "mekong_water_2007_12.png"
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "file": "mekong_water_2008_01.png"
+    },
+    {
+      "year": 2008,
+      "month": 2,
+      "file": "mekong_water_2008_02.png"
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "file": "mekong_water_2008_03.png"
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "file": "mekong_water_2008_04.png"
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "file": "mekong_water_2008_05.png"
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "file": "mekong_water_2008_06.png"
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "file": "mekong_water_2008_07.png"
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "file": "mekong_water_2008_08.png"
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "file": "mekong_water_2008_09.png"
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "file": "mekong_water_2008_10.png"
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "file": "mekong_water_2008_11.png"
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "file": "mekong_water_2008_12.png"
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "file": "mekong_water_2009_01.png"
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "file": "mekong_water_2009_02.png"
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "file": "mekong_water_2009_03.png"
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "file": "mekong_water_2009_04.png"
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "file": "mekong_water_2009_05.png"
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "file": "mekong_water_2009_06.png"
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "file": "mekong_water_2009_07.png"
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "file": "mekong_water_2009_08.png"
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "file": "mekong_water_2009_09.png"
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "file": "mekong_water_2009_10.png"
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "file": "mekong_water_2009_11.png"
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "file": "mekong_water_2009_12.png"
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "file": "mekong_water_2010_01.png"
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "file": "mekong_water_2010_02.png"
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "file": "mekong_water_2010_03.png"
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "file": "mekong_water_2010_04.png"
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "file": "mekong_water_2010_05.png"
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "file": "mekong_water_2010_06.png"
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "file": "mekong_water_2010_07.png"
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "file": "mekong_water_2010_08.png"
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "file": "mekong_water_2010_09.png"
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "file": "mekong_water_2010_10.png"
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "file": "mekong_water_2010_11.png"
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "file": "mekong_water_2010_12.png"
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "file": "mekong_water_2011_01.png"
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "file": "mekong_water_2011_02.png"
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "file": "mekong_water_2011_03.png"
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "file": "mekong_water_2011_04.png"
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "file": "mekong_water_2011_05.png"
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "file": "mekong_water_2011_06.png"
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "file": "mekong_water_2011_07.png"
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "file": "mekong_water_2011_08.png"
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "file": "mekong_water_2011_09.png"
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "file": "mekong_water_2011_10.png"
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "file": "mekong_water_2011_11.png"
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "file": "mekong_water_2011_12.png"
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "file": "mekong_water_2012_01.png"
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "file": "mekong_water_2012_02.png"
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "file": "mekong_water_2012_03.png"
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "file": "mekong_water_2012_04.png"
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "file": "mekong_water_2012_05.png"
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "file": "mekong_water_2012_06.png"
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "file": "mekong_water_2012_07.png"
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "file": "mekong_water_2012_08.png"
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "file": "mekong_water_2012_09.png"
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "file": "mekong_water_2012_10.png"
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "file": "mekong_water_2012_11.png"
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "file": "mekong_water_2012_12.png"
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "file": "mekong_water_2013_01.png"
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "file": "mekong_water_2013_02.png"
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "file": "mekong_water_2013_03.png"
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "file": "mekong_water_2013_04.png"
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "file": "mekong_water_2013_05.png"
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "file": "mekong_water_2013_06.png"
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "file": "mekong_water_2013_07.png"
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "file": "mekong_water_2013_08.png"
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "file": "mekong_water_2013_09.png"
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "file": "mekong_water_2013_10.png"
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "file": "mekong_water_2013_11.png"
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "file": "mekong_water_2013_12.png"
+    },
+    {
+      "year": 2014,
+      "month": 1,
+      "file": "mekong_water_2014_01.png"
+    },
+    {
+      "year": 2014,
+      "month": 2,
+      "file": "mekong_water_2014_02.png"
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "file": "mekong_water_2014_03.png"
+    },
+    {
+      "year": 2014,
+      "month": 4,
+      "file": "mekong_water_2014_04.png"
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "file": "mekong_water_2014_05.png"
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "file": "mekong_water_2014_06.png"
+    },
+    {
+      "year": 2014,
+      "month": 7,
+      "file": "mekong_water_2014_07.png"
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "file": "mekong_water_2014_08.png"
+    },
+    {
+      "year": 2014,
+      "month": 9,
+      "file": "mekong_water_2014_09.png"
+    },
+    {
+      "year": 2014,
+      "month": 10,
+      "file": "mekong_water_2014_10.png"
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "file": "mekong_water_2014_11.png"
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "file": "mekong_water_2014_12.png"
+    },
+    {
+      "year": 2015,
+      "month": 1,
+      "file": "mekong_water_2015_01.png"
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "file": "mekong_water_2015_02.png"
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "file": "mekong_water_2015_03.png"
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "file": "mekong_water_2015_04.png"
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "file": "mekong_water_2015_05.png"
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "file": "mekong_water_2015_06.png"
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "file": "mekong_water_2015_07.png"
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "file": "mekong_water_2015_08.png"
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "file": "mekong_water_2015_09.png"
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "file": "mekong_water_2015_10.png"
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "file": "mekong_water_2015_11.png"
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "file": "mekong_water_2015_12.png"
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "file": "mekong_water_2016_01.png"
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "file": "mekong_water_2016_02.png"
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "file": "mekong_water_2016_03.png"
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "file": "mekong_water_2016_04.png"
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "file": "mekong_water_2016_05.png"
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "file": "mekong_water_2016_06.png"
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "file": "mekong_water_2016_07.png"
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "file": "mekong_water_2016_08.png"
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "file": "mekong_water_2016_09.png"
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "file": "mekong_water_2016_10.png"
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "file": "mekong_water_2016_11.png"
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "file": "mekong_water_2016_12.png"
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "file": "mekong_water_2017_01.png"
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "file": "mekong_water_2017_02.png"
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "file": "mekong_water_2017_03.png"
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "file": "mekong_water_2017_04.png"
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "file": "mekong_water_2017_05.png"
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "file": "mekong_water_2017_06.png"
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "file": "mekong_water_2017_07.png"
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "file": "mekong_water_2017_08.png"
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "file": "mekong_water_2017_09.png"
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "file": "mekong_water_2017_10.png"
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "file": "mekong_water_2017_11.png"
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "file": "mekong_water_2017_12.png"
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "file": "mekong_water_2018_01.png"
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "file": "mekong_water_2018_02.png"
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "file": "mekong_water_2018_03.png"
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "file": "mekong_water_2018_04.png"
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "file": "mekong_water_2018_05.png"
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "file": "mekong_water_2018_06.png"
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "file": "mekong_water_2018_07.png"
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "file": "mekong_water_2018_08.png"
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "file": "mekong_water_2018_09.png"
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "file": "mekong_water_2018_10.png"
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "file": "mekong_water_2018_11.png"
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "file": "mekong_water_2018_12.png"
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "file": "mekong_water_2019_01.png"
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "file": "mekong_water_2019_02.png"
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "file": "mekong_water_2019_03.png"
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "file": "mekong_water_2019_04.png"
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "file": "mekong_water_2019_05.png"
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "file": "mekong_water_2019_06.png"
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "file": "mekong_water_2019_07.png"
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "file": "mekong_water_2019_08.png"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "file": "mekong_water_2019_09.png"
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "file": "mekong_water_2019_10.png"
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "file": "mekong_water_2019_11.png"
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "file": "mekong_water_2019_12.png"
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "file": "mekong_water_2020_01.png"
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "file": "mekong_water_2020_02.png"
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "file": "mekong_water_2020_03.png"
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "file": "mekong_water_2020_04.png"
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "file": "mekong_water_2020_05.png"
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "file": "mekong_water_2020_06.png"
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "file": "mekong_water_2020_07.png"
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "file": "mekong_water_2020_08.png"
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "file": "mekong_water_2020_09.png"
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "file": "mekong_water_2020_10.png"
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "file": "mekong_water_2020_11.png"
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "file": "mekong_water_2020_12.png"
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "file": "mekong_water_2021_01.png"
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "file": "mekong_water_2021_02.png"
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "file": "mekong_water_2021_03.png"
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "file": "mekong_water_2021_04.png"
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "file": "mekong_water_2021_05.png"
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "file": "mekong_water_2021_06.png"
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "file": "mekong_water_2021_07.png"
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "file": "mekong_water_2021_08.png"
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "file": "mekong_water_2021_09.png"
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "file": "mekong_water_2021_10.png"
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "file": "mekong_water_2021_11.png"
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "file": "mekong_water_2021_12.png"
+    }
+  ]
+}

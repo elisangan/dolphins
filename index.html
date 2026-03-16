@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fokir's Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./web/style.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div id="onboarding-overlay">
+        <div class="onboarding-card">
+            <div class="onboarding-title">Fokir's Journey</div>
+            <div class="onboarding-subtitle">Following an Irrawaddy dolphin through the Mekong Basin</div>
+
+            <div class="onboarding-scenes">
+                <div class="onboarding-scene">
+                    <div class="onboarding-scene-number">1</div>
+                    <div class="onboarding-scene-info">
+                        <div class="onboarding-scene-name">Kampi Pool, Kratie <span class="onboarding-scene-dash">&mdash;</span> <em>Base Station</em></div>
+                        <div class="onboarding-scene-desc">A pod of Irrawaddy dolphins surfaces at their home pool. Click any dolphin to view monitoring station data &mdash; water quality, sediment, and fisheries readings for this stretch of river.</div>
+                    </div>
+                </div>
+                <div class="onboarding-scene">
+                    <div class="onboarding-scene-number">2</div>
+                    <div class="onboarding-scene-info">
+                        <div class="onboarding-scene-name">Mekong Transit <span class="onboarding-scene-dash">&mdash;</span> <em>The Survey</em></div>
+                        <div class="onboarding-scene-desc">Fokir swims downstream on a survey run. When the dolphin dives, echolocation activates &mdash; the view shifts to sonar and hidden underwater hazards (gillnets, carcasses, noise pollution) are revealed by the pulse.</div>
+                    </div>
+                </div>
+                <div class="onboarding-scene">
+                    <div class="onboarding-scene-number">3</div>
+                    <div class="onboarding-scene-info">
+                        <div class="onboarding-scene-name">Phnom Penh Confluence <span class="onboarding-scene-dash">&mdash;</span> <em>Hazard Report</em></div>
+                        <div class="onboarding-scene-desc">At the confluence, Fokir uploads survey data to a monitoring station. Fishing boats receive the hazard report. Watch the dolphin glow golden with karma as the data transfer completes.</div>
+                    </div>
+                </div>
+                <div class="onboarding-scene">
+                    <div class="onboarding-scene-number">4</div>
+                    <div class="onboarding-scene-info">
+                        <div class="onboarding-scene-name">Tonle Sap <span class="onboarding-scene-dash">&mdash;</span> <em>Homecoming</em></div>
+                        <div class="onboarding-scene-desc">The pod gathers at Tonle Sap lake beside a Cambodian stilt house. The golden dolphin carries accumulated karma. The right panel shows the family whose livelihood depends on co-fishing with the dolphins.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="onboarding-divider"></div>
+
+            <div class="onboarding-controls-title">Interactions</div>
+            <div class="onboarding-controls">
+                <div class="onboarding-control"><span class="onboarding-key">Scene panels</span> Click the four panels at the bottom to navigate between scenes</div>
+                <div class="onboarding-control"><span class="onboarding-key">Click dolphin</span> Select a dolphin or station to view environmental data in the right sidebar</div>
+                <div class="onboarding-control"><span class="onboarding-key">Timeline</span> Click a year block or drag the month slider to move through time (2000&ndash;2040)</div>
+                <div class="onboarding-control"><span class="onboarding-key">Scenario</span> Toggle between Recovery and Decline to see projected futures diverge</div>
+                <div class="onboarding-control"><span class="onboarding-key">Layers</span> Show/hide terrain, water surface, and monitoring stations</div>
+                <div class="onboarding-control"><span class="onboarding-key">Orbit</span> Click and drag the 3D view to rotate; scroll to zoom</div>
+            </div>
+
+            <button id="onboarding-enter" class="onboarding-enter">Enter</button>
+        </div>
+    </div>
+
+    <div id="top-bar">
+        
+        <span class="top-bar-title">Fokir's Journey</span>
+        <div class="top-bar-spacer"></div>
+        <div class="top-bar-group">
+            <span class="top-bar-label">Layers</span>
+            <label class="layer-check"><input type="checkbox" id="layer-terrain" checked> Terrain</label>
+            <label class="layer-check"><input type="checkbox" id="layer-water" checked> Water</label>
+            <label class="layer-check"><input type="checkbox" id="layer-stations" checked> Stations</label>
+        </div>
+    </div>
+
+    <div id="main-area">
+        <div id="minimap-panel">
+            <div class="minimap-header">Route Map</div>
+            <canvas id="minimap-canvas"></canvas>
+            <div class="scenario-row">
+                <span class="scenario-label-text">Scenario</span>
+                <div id="scenario-toggle">
+                    <button class="scenario-btn active" data-scenario="cooperative">Recovery</button>
+                    <button class="scenario-btn" data-scenario="decline">Decline</button>
+                </div>
+                <button id="info-btn" class="info-btn" aria-label="Info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z"/>
+                        <path d="M16 11a1.5 1.5 0 1 0-1.5-1.5A1.5 1.5 0 0 0 16 11zM16 13a1 1 0 0 0-1 1v8a1 1 0 0 0 2 0V14A1 1 0 0 0 16 13z"/>
+                    </svg>
+                </button>
+                <div id="info-popover" class="info-popover hidden">
+                    <div class="info-popover-title">Scenarios & Indicators</div>
+                    <div class="info-popover-section">
+                        <strong>Cooperative Recovery</strong> — Models outcomes if transboundary conservation efforts succeed: reduced pollution, fishing regulation enforcement, dam flow agreements. Water quality improves, fish populations rebound.
+                    </div>
+                    <div class="info-popover-section">
+                        <strong>Accelerated Decline</strong> — Models outcomes under continued hydropower expansion, unregulated fishing, and increasing agricultural runoff. Dissolved oxygen drops, sediment loads spike, species disappear.
+                    </div>
+                    <div class="info-popover-divider"></div>
+                    <div class="info-popover-section">
+                        <strong>Data markers</strong>
+                    </div>
+                    <div class="info-popover-legend">
+                        <span class="data-value ok">Green</span> Within safe thresholds
+                    </div>
+                    <div class="info-popover-legend">
+                        <span class="data-value warn">Yellow</span> Approaching limits
+                    </div>
+                    <div class="info-popover-legend">
+                        <span class="data-value danger">Red</span> Exceeds threshold
+                    </div>
+                    <div class="info-popover-divider"></div>
+                    <div class="info-popover-section" style="font-size:9px;color:var(--color-text-muted)">
+                        Thresholds based on MRC Water Quality Guidelines for the Lower Mekong Basin. Baseline data: synthetic calibration from MRC monitoring reports (2020).
+                    </div>
+                </div>
+            </div>
+            <div class="data-panel sidebar-timeline">
+                <div class="data-panel-title">Timeline</div>
+                <div id="timeline-readout" class="timeline-readout">Jan 2020</div>
+                <div id="year-strip" class="year-strip"></div>
+                <div class="timeline-labels">
+                    <span class="timeline-era timeline-era-hist">Historical</span>
+                    <span class="timeline-era timeline-era-proj">Projected</span>
+                </div>
+                <div class="month-control">
+                    <span class="month-label-text">Month</span>
+                    <input type="range" id="month-slider" min="1" max="12" step="1" value="1">
+                    <span id="month-label" class="control-value">Jan</span>
+                </div>
+            </div>
+            <div id="panel-water-extent" class="data-panel">
+                <div class="data-panel-title">Water Extent</div>
+                <canvas id="water-extent-graph" class="extent-graph"></canvas>
+            </div>
+        </div>
+        <canvas id="scene-canvas"></canvas>
+        <div id="data-sidebar">
+            <div class="data-sidebar-header">
+                <span>Station Data</span>
+            </div>
+            <div id="panel-water-quality" class="data-panel">
+                <div class="data-panel-title">Water Quality</div>
+                <div class="data-panel-body" id="wq-body">Loading...</div>
+            </div>
+            <div id="panel-sediment" class="data-panel">
+                <div class="data-panel-title">Sediment</div>
+                <div class="data-panel-body" id="sed-body">Loading...</div>
+            </div>
+            <div id="panel-fisheries" class="data-panel">
+                <div class="data-panel-title">Fisheries</div>
+                <div class="data-panel-body" id="fish-body">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-bar">
+        <div class="scene-panel active" data-scene="1">
+            <div class="scene-viewport"><canvas class="scene-preview" data-scene="1"></canvas></div>
+            <div class="scene-label">
+                <span class="scene-number">1</span>
+                <span class="scene-name">Kampi Pool, Kratie</span>
+                <span class="scene-subtitle">Base Station</span>
+            </div>
+        </div>
+        <div class="scene-panel" data-scene="2">
+            <div class="scene-viewport"><canvas class="scene-preview" data-scene="2"></canvas></div>
+            <div class="scene-label">
+                <span class="scene-number">2</span>
+                <span class="scene-name">Mekong Transit</span>
+                <span class="scene-subtitle">The Survey</span>
+            </div>
+        </div>
+        <div class="scene-panel" data-scene="3">
+            <div class="scene-viewport"><canvas class="scene-preview" data-scene="3"></canvas></div>
+            <div class="scene-label">
+                <span class="scene-number">3</span>
+                <span class="scene-name">Phnom Penh Confluence</span>
+                <span class="scene-subtitle">Hazard Report</span>
+            </div>
+        </div>
+        <div class="scene-panel" data-scene="4">
+            <div class="scene-viewport"><canvas class="scene-preview" data-scene="4"></canvas></div>
+            <div class="scene-label">
+                <span class="scene-number">4</span>
+                <span class="scene-name">Tonle Sap</span>
+                <span class="scene-subtitle">Homecoming</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./web/dolphin.js"></script>
+    <script>
+    document.getElementById('onboarding-enter').addEventListener('click', function() {
+        var overlay = document.getElementById('onboarding-overlay');
+        overlay.classList.add('fade-out');
+        setTimeout(function() { overlay.remove(); }, 500);
+    });
+    </script>
+</body>
+</html>

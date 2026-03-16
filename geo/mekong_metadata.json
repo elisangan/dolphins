@@ -1,0 +1,122 @@
+{
+  "site": {
+    "name": "Mekong - Kratie to Tonle Sap",
+    "origin_description": "Approximate centroid of Kratie-Tonle Sap corridor"
+  },
+  "provenance": {
+    "source_dem": {
+      "file": "C:\\Users\\ngane\\Dropbox\\2025_UCLA\\DESMA-252A_Coding-Arts\\Project 1\\2025-1005_Text\\4_Gardens\\data\\mekong\\raw\\mekong_dem.tif",
+      "original_crs": "EPSG:4326",
+      "original_bounds": [
+        103.39986109999998,
+        9.82486112222222,
+        106.29874998888887,
+        15.280138899999997
+      ],
+      "original_resolution": [
+        0.0002777777777777778,
+        0.0002777777777777778
+      ],
+      "original_shape": [
+        19639,
+        10436
+      ],
+      "original_nodata": -9999.0,
+      "sha256": "b0546274830bb06f8ef28723afe5f5560550c54abcb02806b385cdbb8f2cd181"
+    },
+    "source_imagery": {
+      "file": "C:\\Users\\ngane\\Dropbox\\2025_UCLA\\DESMA-252A_Coding-Arts\\Project 1\\2025-1005_Text\\4_Gardens\\data\\mekong\\raw\\mekong_imagery.jpg",
+      "source": "ESRI World Imagery",
+      "sha256": "c39807af9a1a17ce1212127aec9d2368eea60bf4a9a03db961a9637965417bfe"
+    }
+  },
+  "transforms": {
+    "target_crs": "EPSG:32648",
+    "utm_zone": "48N",
+    "origin_wgs84": {
+      "lat": 12.1,
+      "lon": 105.0
+    },
+    "origin_utm": {
+      "x": 499999.9999999972,
+      "y": 1337611.4794536815
+    },
+    "origin_elevation_m": 11.81585770274823,
+    "dem_resampling": "bilinear"
+  },
+  "bbox": {
+    "wgs84": {
+      "west": 102.5,
+      "south": 8.6,
+      "east": 107.0,
+      "north": 15.1
+    },
+    "utm": {
+      "west": 224835.85486579547,
+      "south": 951204.3935643634,
+      "east": 720107.1226031842,
+      "north": 1670914.3999023268
+    },
+    "extent_m": {
+      "north": 333302.92044864525,
+      "south": 386407.08588931814,
+      "east": 220107.122603187,
+      "west": 275164.14513420174
+    }
+  },
+  "terrain": {
+    "grid_size": [
+      270,
+      512
+    ],
+    "pixel_size_m": 1177.3969130902271,
+    "elevation_min": -25.676816940307617,
+    "elevation_max": 1807.244873046875,
+    "vertex_count": 138240,
+    "face_count": 171520,
+    "obj_file": "mekong_terrain.obj",
+    "mtl_file": "mekong_terrain.mtl",
+    "texture_file": "mekong_terrain_texture.jpg",
+    "heightfield_file": "mekong_terrain_heightfield.tif"
+  },
+  "coordinate_system": {
+    "convention": "Y-up: X=easting, Y=elevation, Z=northing",
+    "origin": "(0,0,0) = site origin point at ground level",
+    "scale": "1 unit = 1 meter",
+    "reconstruct_utm": "utm_x = local_x + origin_utm.x, utm_y = local_z + origin_utm.y"
+  },
+  "regions": [
+    {
+      "id": "tonle_sap_basin",
+      "name": "Tonle Sap Basin",
+      "bbox_wgs84": {
+        "north": 15.1,
+        "south": 11.0,
+        "east": 107.0,
+        "west": 102.5
+      },
+      "bbox_local": {
+        "west": -273190.5318293545,
+        "east": 218529.11253701756,
+        "south": -120904.0708891279,
+        "north": 333302.92044864525
+      }
+    },
+    {
+      "id": "mekong_delta",
+      "name": "Mekong Delta",
+      "bbox_wgs84": {
+        "north": 11.6,
+        "south": 8.6,
+        "east": 106.8,
+        "west": 104.5
+      },
+      "bbox_local": {
+        "west": -55016.704302600876,
+        "east": 198089.05708398297,
+        "south": -386945.81757137633,
+        "north": -54668.3915864157
+      }
+    }
+  ]
+}

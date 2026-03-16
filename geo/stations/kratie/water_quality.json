@@ -1,0 +1,680 @@
+{
+  "station_id": "kratie",
+  "station_name": "Kratie",
+  "year": 2020,
+  "description": "Synthetic monthly water quality. Wet season (May-Oct): higher turbidity/TSS, lower conductivity/DO.",
+  "monthly": [
+    {
+      "month": 1,
+      "readings": {
+        "pH": {
+          "value": 7.633,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 7.042,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 42.518,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 251.971,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 85.739,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.411,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.083,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.045,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.378,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.29,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 2,
+      "readings": {
+        "pH": {
+          "value": 7.44,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.585,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 59.557,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 205.147,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 112.175,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.566,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.095,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.064,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.591,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.697,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 3,
+      "readings": {
+        "pH": {
+          "value": 7.301,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.395,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 107.057,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 165.324,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 148.905,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.664,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.13,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.075,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.636,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 3.146,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 4,
+      "readings": {
+        "pH": {
+          "value": 7.255,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.143,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 98.142,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 100.688,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 152.968,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.775,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.149,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.074,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.842,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 3.378,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 5,
+      "readings": {
+        "pH": {
+          "value": 7.201,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 5.971,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 121.407,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 131.272,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 190.65,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.755,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.165,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.075,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.805,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 3.459,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 6,
+      "readings": {
+        "pH": {
+          "value": 7.177,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.089,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 105.188,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 131.884,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 175.731,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.84,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.146,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.074,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.736,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 3.421,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 7,
+      "readings": {
+        "pH": {
+          "value": 7.356,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.594,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 108.401,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 154.257,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 131.222,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.547,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.12,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.063,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.629,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 3.184,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 8,
+      "readings": {
+        "pH": {
+          "value": 7.511,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 6.746,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 69.596,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 197.982,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 103.152,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.388,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.097,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.054,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.48,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.717,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 9,
+      "readings": {
+        "pH": {
+          "value": 7.692,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 7.035,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 64.357,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 251.013,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 59.899,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.415,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.074,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.038,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.344,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.417,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 10,
+      "readings": {
+        "pH": {
+          "value": 7.795,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 7.486,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 19.147,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 246.625,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 20.012,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.414,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.066,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.035,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.195,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.101,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 11,
+      "readings": {
+        "pH": {
+          "value": 7.725,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 7.417,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 12.425,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 274.214,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 35.306,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.229,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.041,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.023,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.126,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.019,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    },
+    {
+      "month": 12,
+      "readings": {
+        "pH": {
+          "value": 7.664,
+          "unit": "",
+          "threshold_min": 6.5,
+          "threshold_max": 8.5
+        },
+        "DO": {
+          "value": 7.513,
+          "unit": "mg/L",
+          "threshold_min": 5.0
+        },
+        "turbidity": {
+          "value": 19.442,
+          "unit": "NTU",
+          "threshold_max": 100
+        },
+        "conductivity": {
+          "value": 270.383,
+          "unit": "uS/cm",
+          "threshold_max": 500
+        },
+        "TSS": {
+          "value": 35.879,
+          "unit": "mg/L",
+          "threshold_max": 100
+        },
+        "nitrate": {
+          "value": 0.312,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        },
+        "ammonium": {
+          "value": 0.067,
+          "unit": "mg/L",
+          "threshold_max": 0.5
+        },
+        "total_P": {
+          "value": 0.032,
+          "unit": "mg/L",
+          "threshold_max": 0.13
+        },
+        "BOD": {
+          "value": 1.276,
+          "unit": "mg/L",
+          "threshold_max": 3.0
+        },
+        "COD": {
+          "value": 2.071,
+          "unit": "mg/L",
+          "threshold_max": 5.0
+        }
+      }
+    }
+  ]
+}
